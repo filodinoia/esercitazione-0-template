@@ -1,12 +1,13 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo:	       Filippo Di noia	filodinoia
+	       Matteo Gigante	Matteo-gigantE
 
 Componenti (nome, cognome e username GitHub di entrambi):
 
 URL del repository condiviso:
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2:Entrambi
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
@@ -15,13 +16,28 @@ saper spiegare le prove svolte.
 
 Comando di compilazione:
 
+	gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
+
 Comando di esecuzione e risultato osservato:
 
+	./hello
+
+	non succede nulla, il programma ritorna l'int 0
+	
 Che cosa ho capito su sorgente ed eseguibile:
+
+    	 il file hello.c è il file sorgente contenente il codice del programma, l'eseguibile hello
+	 è invece generato dal compilatore in linguaggio macchina per l'esecuzione
 
 Output richiesto e comportamento del programma prima della modifica:
 
+       L'output non c'è stato ed è come aspettato in quanto il programma consisteva solo nel ritornare un intero. se si intende il todo come risultato atteso allora l'output era assente ed errato
+
 Esito dopo la modifica e spiegazione della correzione:
+
+      La correzione è consistita nell'aggiungere la linea
+
+      printf("Hello, computational physics!\n");
 
 ## Step 1 — Git
 
