@@ -41,11 +41,15 @@ Esito dopo la modifica e spiegazione della correzione:
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: Nel commit sono stati inclusi (con git add) il file hello.c sorgente e il file osserv azioni.md in quanto sono stati gli unici modificati
+
 
 Come ho verificato che la versione provata sia presente su GitHub:
 
+     con git diff si sono controllate le differenze tra la versione remota originale e quella locale aggiornata, dopo il push le differenze non erano presenti
+
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+ non serve un nuovo clune dopo il pull in quanto la versione pullata sarebbe stata la stessa di quella gia presente, cosa detta pure da output del comando
 
 ## Step 2 — Eco: prima prova
 
